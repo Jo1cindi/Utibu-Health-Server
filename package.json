@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +21,7 @@
     "msnodesqlv8": "^4.1.2",
     "mssql": "^10.0.2",
     "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
     "sib-api-v3-sdk": "^8.5.0"
   }
 }
