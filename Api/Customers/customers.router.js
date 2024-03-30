@@ -43,8 +43,8 @@ router.post("/signup", async (req, res) => {
     }
   );
 
-  console.log(req.body);
-  console.log(hashedPassword);
 });
+
+router
 
 module.exports = router;
